@@ -1,4 +1,4 @@
-module Recommend
+module API
   class EchoNest < Struct.new(:api_key)
     include HTTParty
     format :json

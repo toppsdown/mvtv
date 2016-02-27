@@ -1,4 +1,4 @@
-module Recommend
+module API
   class LastFM < Struct.new(:api_key)
     # ?method=artist.getSimilar&api_key=xxx...
 

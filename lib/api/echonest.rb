@@ -44,7 +44,10 @@ module API
     DEFAULT_PARAMS = { format: 'json' }
 
     def similar(seed_artist)
-      search({ name: seed_artist })
+      search({
+        name: seed_artist,
+        endpoint: 'artists/simliar'
+      })
     end
 
     def playlist_from_artist(seed_artist)

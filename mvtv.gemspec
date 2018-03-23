@@ -4,5 +4,5 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split("\n")
   s.version = '0.0.1'
 
-  s.require_paths = ['lib']
+  s.require_paths = ['lib/**/*.rb']
 end
